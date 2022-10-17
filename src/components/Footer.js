@@ -2,8 +2,13 @@ import React from 'react';
 import { ReactComponent as Logo } from '../assets/logo.svg';
 import { ReactComponent as EmailLogo } from '../assets/email.svg';
 import { ReactComponent as Insta } from '../assets/instagram.svg';
+import { ReactComponent as Facebook } from '../assets/facebook.svg';
+import { ReactComponent as Linkedin } from '../assets/linkedin.svg';
+import { ReactComponent as Twitter } from '../assets/twitter.svg';
+import { ReactComponent as Tiktok } from '../assets/tiktok.svg';
 
 import './Footer.css';
+
 
 function Footer() {
     return (
@@ -28,6 +33,7 @@ function Footer() {
                         <a className='Other' href='#'>Privacy Policy</a>
                     </ul>
                 </div>
+                <br/>
                 <div className='ContactSocialBox'>
                     <div className='Contact'>
                         <p className='ContactText'>Contact</p>
@@ -39,9 +45,13 @@ function Footer() {
                     <div className='SocialBox'>
                         <div>
                             <p className='SocialBoxHead'>Social</p>
-                            <div>
-                                <Insta className='InstaLogo'/>
-                            </div>
+                            <label className='SocialLinks'>
+                                <button className='InstaLogo' href="#" ><Insta className='InstaLogoInner'/></button>
+                                <button className='FBLogo' href="#" ><Facebook className='FBLogoInner'/></button>
+                                <button className='LinkLogo' href="#" ><Linkedin className='LinkLogoInner'/></button>
+                                <button className='TwitterLogo' href="#" ><Twitter className='TwitterLogoInner'/></button>
+                                <button className='TiktokLogo' href="#" ><Tiktok className='TiktokLogoInner'/></button>
+                            </label>
                         </div>
                     </div>
                 </div>

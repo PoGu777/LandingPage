@@ -108,7 +108,7 @@
     
 }
 
-label {
+.Label {
     display: grid;
     grid-template: 1fr / auto 1fr;
     gap: 12px;
@@ -149,3 +149,121 @@ label {
     color: #6D7A80;
     opacity: 1;
 }
+
+@media only screen and (max-width: 400px) {
+    .Body11{
+        width: 343px;
+        height: 539px;
+        margin: 4%;
+    }
+    .Name1{
+        width: 311px;
+        height: 89px;
+        text-align: left;
+        font: normal normal normal 32px/48px Caveat Brush;
+        letter-spacing: 0px;
+        color: #1F343E;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 32px 16px 24px;
+    }
+    .Paragraph1 {
+        width: 311px;
+        height: 89px;
+        text-align: left;
+        font: normal normal normal 32px/48px Caveat Brush;
+        letter-spacing: 0px;
+        color: #1F343E;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    .Text {
+        width: 311px;
+        height: 118px;
+        text-align: left;
+        font: normal normal normal 16px/24px Noto Sans;
+        letter-spacing: 0px;
+        color: #1F343E;
+        opacity: 1;
+        margin: 24px 16px 24px;
+    }
+    .Paragraph2 {
+        margin: 0px;
+        width: 311px;
+        height: 118px;
+    }
+    .ErrorState {
+        display: none;
+    }
+    .Label {
+        width: 311px;
+        height: 56px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #1F343E;
+        border-radius: 8px;
+        opacity: 1;
+        margin: 1%;
+        margin-top: 24px;
+        float: left;
+        
+    }
+    .Input {
+        width: 188px;
+        height: 22px;
+        text-align: left;
+        font: normal normal normal 16px/20px Noto Sans;
+        letter-spacing: 0px;
+        color: #6D7A80;
+        opacity: 1;
+        margin-top: 18px;
+        
+    }
+    .Button {
+        width: 311px;
+        height: 56px;
+        background: #4EB3E3 0% 0% no-repeat padding-box;
+        border: 1px solid #1F343E;
+        border-radius: 8px;
+        opacity: 1;
+        margin: 16px 16px 30px;
+        float: left;
+    }
+    .Limits {
+        margin: 0px 16px 0px;
+        float: left;
+        width: 311px;
+        height: 22px;
+        
+    }
+    .LimitsPar {
+        margin: 0px;
+        margin-bottom: 31px;
+        width: 311px;
+        height: 22px;
+        
+    }
+    
+    
+    .Inv {
+        width: 128px;
+        height: 140px;
+        margin: 0px 107px 0px;
+        position: relative;
+    }
+    
+    .Head {
+        width: 311px;
+        height: 21px;
+        text-align: center;
+        font: normal normal bold 16px/24px Gadugi;
+        letter-spacing: 1.28px;
+        color: #4EB3E3;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 0px 16px 16px;
+    }
+    
+    }
+    
+    
+    

@@ -8,3 +8,10 @@
     opacity: 1;
     float: left;
 }
+
+@media only screen and (max-width: 400px) {
+    .Body {
+        width: 375px;
+        height: 1650px;
+    }
+}

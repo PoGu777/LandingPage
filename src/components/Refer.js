@@ -21,17 +21,17 @@ function Refer() {
                     </p>
                 </div>
                 <div>
-                    <label>
+                    <label className='Label'>
                         <EmailLogo className='Icon'/>
                         <input placeholder= "Enter your email address" type="text" name="name" className='Input'/>
                             
                     </label>
                     <button className='Button' type='button'>Get Referral Link</button>
-                </div>
-                <div className='Limits'>
-                    <p>
-                        Limits on max rewards apply.
-                    </p>
+                    <div className='Limits'>
+                        <p className='LimitsPar'>
+                            Limits on max rewards apply.
+                        </p>
+                    </div>
                 </div>
             </div>
 

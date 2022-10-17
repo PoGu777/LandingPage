@@ -98,3 +98,56 @@
     color: #FFFFFF;
     opacity: 1;
 }
+
+@media only screen and (max-width: 400px) {
+    .StoreBar {
+        width: 375px;
+        height: 286px;
+        background: #45565E 0% 0% no-repeat padding-box;
+        border: 1px solid #1F343E;
+        opacity: 1;
+        float: left;
+        margin: 0px;
+        position: relative;
+    }
+    .Chrome {
+        width: 312px;
+        height: 80px;
+        background: #45565E 0% 0% no-repeat padding-box;
+        border: 1px solid #1F343E;
+        border-radius: 16px;
+        opacity: 1;
+        margin: 32px 31px 16px;
+        
+    }
+    .Apple {
+        width: 312px;
+        height: 80px;
+        background: #45565E 0% 0% no-repeat padding-box;
+        border: 1px solid #1F343E;
+        border-radius: 16px;
+        opacity: 1;
+        margin: 0px 31px 16px;
+    }
+    .Pic {
+        width: 56px;
+        height: 52px;
+    }
+    .Rate {
+        width: 281px;
+        height: 22px;
+        margin: 24px 56px 32px;
+        float: left;
+    }
+    .StoreRe {
+        width: 165px;
+        height: 22px;
+        text-align: left;
+        font: normal normal normal 16px/24px Noto Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        float: right;
+        margin-left: 0px;
+    }
+}

@@ -94,3 +94,76 @@
     margin-right: 10%;
     margin-top: 2%;
 }
+
+@media only screen and (max-width: 400px) {
+    .Box {
+        width: 343px;
+        height: 1030px;
+        margin: 49px 16px 0px;
+    }
+    .InviteFriends {
+        float: left;
+        width: 343px;
+        height: 292px;
+        text-align: center;
+        font: normal normal normal 32px/40px Caveat Brush;
+        letter-spacing: 0px;
+        color: #1F343E;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    .Collect {
+        float: left;
+        width: 343px;
+        height: 316px;  
+
+
+    }
+    .Coin {
+        float: left;
+        width: 144px;
+        height: 144px;
+        position: relative;
+        margin: 48px 100px 0px;
+    }
+    .StepTwo {
+        width: 343px;
+        height: 140px;
+        float: left;
+    }
+    .InvFriends {
+        text-align: center;
+    }
+    .InviteFriends {
+        width: 343px;
+        height: 279px;
+        margin: 48px 0px 24px;
+    }
+    .Voucher {
+        position: relative;
+        width: 144px;
+        height: 107px;
+        margin: 0px;
+        margin-bottom: 32px;
+    }
+    .StepOne {
+        width: 343px;
+        height: 279px;
+        text-align: center;
+        font: normal normal normal 32px/40px Caveat Brush;
+        letter-spacing: 0px;
+        color: #1F343E;
+        text-transform: uppercase;
+        opacity: 1;
+        float: left;
+    }
+    .Refer {
+        width: 343px;
+        height: 22px;
+        text-align: center;
+        font: normal normal normal 16px/24px Noto Sans;
+        letter-spacing: 0px;
+        color: #1F343E;
+        opacity: 1;    
+    }
+}

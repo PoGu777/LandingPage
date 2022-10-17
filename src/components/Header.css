@@ -1,58 +1,106 @@
 .Header {
     height: 80px;
+    
 }
-.Header-logo {
-    margin-left: 20%;
+
+.HeaderMap {
+    width: 1100px;
+    height: 32px;
+    margin-left: 28%;
     margin-right: 20%;
-    margin-top: 30%;
+    margin-top: 2%;
+}
+
+.Header-logo {
     
-    display: inline;
+    width: 125px;
+    height: 32px;
+    float: left;
 
     
 }
 
-@media only screen and (max-width: 900px) {
-    .Header-logo {
-        left: 0%;
-    }
+.MenuLinks {
+    padding: 0%;
+    float: left;
+    margin: 0%;
+    margin-left: 10%;
+    width: 560px;
+    height: 32px;
 }
+
+
 
 .Chrome-extention {
-    margin-left: 118px;
-    display: inline;
-    
-    
-    width: 172px;
-    
-    
+    height: 48px;
+    width: 224px;
     font: normal normal normal 20px/32px Noto Sans;
     letter-spacing: 0px;
     color: #4EB3E3;
     opacity: 1;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+
 }
 
 .Price-comp {
-    display: inline;
-    margin-left: 32px;
     
-    left: 64%;
-    width: 166px;
-    height: 27px;
-    
+    text-align: center;
+    width: 218px;
+    height: 48px;
+    float: left;
     font: normal normal normal 20px/32px Noto Sans;
     letter-spacing: 0px;
     color: #434A54;
     opacity: 1;
+    text-decoration: none;
 }
 
 .Blog {
-    margin-right: 415px;
-    display: inline;
+    float: left;
+    text-decoration: none;
+    width: 94px;
+    height: 48px;
+    text-align: center;
+    font: normal normal normal 20px/32px Noto Sans;
+    letter-spacing: 0px;
+    color: #434A54;
+    opacity: 1;
+    
+    
     
 }
 
 .wrap {
     float: right;
+    
    
     
+}
+
+.Menu-logo {
+    width: 32px;
+    height: 32px;;
+}
+
+@media only screen and (max-width: 400px) {
+    .Header {
+        width: 375px;
+        height: 56px;
+    }
+    .HeaderMap {
+        margin: 0%;
+        margin-top: 12px;
+        width: 365px;
+        height: 32px;
+    }
+    .Header-logo {
+        width: 125px;
+        height: 32px;
+        margin: 1%;
+    }
+    .Menu-logo {
+        float: right;
+    }
 }
