@@ -1,0 +1,177 @@
+.Footer {
+    width: 1920px;
+    height: 348px;
+    background: #F8F4F9 0% 0% no-repeat padding-box;
+    border: 1px solid #1F343E;
+    opacity: 1;
+    float: left;
+}
+
+.Map {
+    width: 1200px;
+    height: 226px;
+    margin-left: 20%;
+    margin-top: 3%;
+    float: left;
+}
+
+.Logo {
+    width: 125px;
+    height: 32px;
+}
+
+.About{
+    width: 544px;
+    height: 226px;
+    float: left;
+}
+
+.Mission {
+    width: 544px;
+    height: 94px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F343E;
+    opacity: 1;
+}
+
+.Copy {
+    margin: 0%;
+    margin-top: 5%;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #6D7A80;
+    opacity: 1;
+}
+
+.FooterLinkBox {
+    float: left;
+    width: 146px;
+    height: 348px;
+    margin-left: 15%;
+}
+
+.List {
+    padding: 0%;
+    float: left;
+    
+}
+
+.LinkHead {
+    width: 146px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/24px Noto Sans;
+    letter-spacing: 1.6px;
+    color: #1F343E;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0%;
+}
+
+.Price {
+    width: 133px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #4EB3E3;
+    opacity: 1;
+    float: left;
+    text-decoration: none;
+}
+
+.Other {
+    width: 138px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F343E;
+    opacity: 1;
+    float: left;
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+.ContactSocialBox {
+    width: 192px;
+    height: 226px;
+    float: right;
+    margin-left: 4%;
+}
+
+.Contact {
+    margin: 0%;
+}
+
+.Email {
+    margin: 0%;
+    float: left;
+    margin-top: 12%;
+    margin-left: 16px;
+    width: 133px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F343E;
+    opacity: 1;
+
+}
+
+.EmailLogo {
+    width: 16px;
+    height: 13px;
+    background: #F8F4F9 0% 0% no-repeat padding-box;
+    border: 1px solid #1F343E;
+    opacity: 1;
+    float: left;
+    margin-top: 15%;
+}
+
+.ContactText {
+    width: 103px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/24px Noto Sans;
+    letter-spacing: 1.6px;
+    color: #1F343E;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0%;
+}
+
+.ContactBox {
+    float: left;
+}
+
+.SocialBox {
+    float: left;
+    margin-top: 25%;
+    width: 192px;
+    height: 141px;
+}
+
+.SocialBoxHead {
+    width: 81px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/24px Noto Sans;
+    letter-spacing: 1.6px;
+    color: #1F343E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.InstaLogo {
+    width: 32px;
+    height: 32px;
+    background: #4EB3E3 0% 0% no-repeat padding-box;
+    border: 1px solid #1F343E;
+    border-radius: 8px;
+    opacity: 1;
+}
