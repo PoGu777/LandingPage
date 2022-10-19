@@ -1,8 +1,7 @@
 .Box {
     margin-top: 128px;
     margin-left: 7%;
-    width: 448px;
-    height: 669px;
+    
     background: transparent;
     
     border-radius: 16px;
@@ -11,8 +10,8 @@
 }
 
 .InviteFriends {
-    width: 448px;
-    height: 159px;
+    min-width: 448px;
+    min-height: 159px;
     margin-bottom: 7%;
 }
 
@@ -25,8 +24,7 @@
     color: #4EB3E3;
     text-transform: uppercase;
     opacity: 1;
-    width: 256px;
-    height: 27px;
+    
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -42,13 +40,12 @@
 .StepOne {
     float: right;
     
-    width: 256px;
-    height: 159px;
+    max-width: 256px;
+    
 }
 
 .Inv {
-    position: absolute;
-    margin-right: 10%;
+  
 }
 
 .Second {
@@ -72,39 +69,38 @@
 }
 
 .Collect {
-    width: 448px;
-    height: 191px;
+    max-width: 448px;
+    max-height: 191px;
     margin-bottom: 7%;
 }
 
 .Coin {
-    width: 144px;
-    height: 144px;
+    
     float: right;
     margin-top: 5%;
 }
 
 .StepTwo {
-    width: 256px;
-    height: 191px;
+    min-width: 256px;
+    min-height: 191px;
 }
 
 .Voucher {
-    position: absolute;
+    
     margin-right: 10%;
-    margin-top: 2%;
+    margin-top: 7%;
 }
 
 @media only screen and (max-width: 400px) {
     .Box {
-        width: 343px;
-        height: 1030px;
+        min-width: 343px;
+        min-height: 1030px;
         margin: 49px 16px 0px;
     }
     .InviteFriends {
         float: left;
-        width: 343px;
-        height: 292px;
+        min-width: 343px;
+        min-height: 292px;
         text-align: center;
         font: normal normal normal 32px/40px Caveat Brush;
         letter-spacing: 0px;
@@ -114,29 +110,29 @@
     }
     .Collect {
         float: left;
-        width: 343px;
-        height: 316px;  
+        min-width: 343px;
+        min-height: 316px;  
 
 
     }
     .Coin {
         float: left;
-        width: 144px;
-        height: 144px;
-        position: relative;
+        min-width: 144px;
+        min-height: 144px;
+        
         margin: 48px 100px 0px;
     }
     .StepTwo {
-        width: 343px;
-        height: 140px;
+        min-width: 343px;
+        min-height: 140px;
         float: left;
     }
     .InvFriends {
         text-align: center;
     }
     .InviteFriends {
-        width: 343px;
-        height: 279px;
+        min-width: 343px;
+        min-height: 279px;
         margin: 48px 0px 24px;
     }
     .Voucher {
@@ -147,8 +143,8 @@
         margin-bottom: 32px;
     }
     .StepOne {
-        width: 343px;
-        height: 279px;
+        min-width: 343px;
+        min-height: 116px;
         text-align: center;
         font: normal normal normal 32px/40px Caveat Brush;
         letter-spacing: 0px;

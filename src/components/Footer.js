@@ -33,7 +33,7 @@ function Footer() {
                         <a className='Other' href='#'>Privacy Policy</a>
                     </ul>
                 </div>
-                <br/>
+                
                 <div className='ContactSocialBox'>
                     <div className='Contact'>
                         <p className='ContactText'>Contact</p>

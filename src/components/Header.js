@@ -3,10 +3,10 @@ import { ReactComponent as Logo } from '../assets/logo.svg';
 import { ReactComponent as Menu } from '../assets/menu.svg';
 import './Header.css';
 
-var x = window.matchMedia("(min-width: 1900px)")
+//var x = window.matchMedia("(min-width: 1500px)")
 
-function Header(x) {
-    if (x.matches) {
+function Header() {
+    //if (x.matches) {
         return (
                 <div className="Header">
                     <div className='HeaderMap'>
@@ -23,7 +23,7 @@ function Header(x) {
                 </div>
         )
         }
-    else {
+    /*else {
         return (
         <div className="Header">
                     <div className='HeaderMap'>
@@ -33,8 +33,8 @@ function Header(x) {
                     </div>
                 </div>
         )
-    }
-}
+    }*/
+
 
 
 export default Header;
